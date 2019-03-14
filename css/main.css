@@ -396,6 +396,44 @@ list-style: none;
         /* margin: 10px; */
     }
 }
+@media screen and (max-width:642px){
+    .navbar-icon {
+        padding: 42px;
+        margin-left: 19px;
+        list-style: none;
+    }
+    .social-media {
+        display: inline-block;
+        width: 59px;
+        height: 30px;
+        font-size: 35px;
+    }
+    .toggler {
+        display: block;
+        float: right;
+        padding: 35px;
+        margin-right: -558px;
+        font-size: 34px;
+    }
+    .content-image {
+        width: 939px;
+        height: 746px;
+        position: relative;
+        left: 58%;
+        top: -456px;
+        z-index: -1;
+        bottom: 0px;
+    }
+    .header {
+        font: normal normal bold 80px/1.1em raleway,sans-serif;
+        color: #222222;
+        width: 20%;
+        position: relative;
+        top: 137px;
+        left: 94px;
+        bottom: 0px;
+    }
+}
 .active
 {
     display: block;
