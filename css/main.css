@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    cursor: url('../source/image/icons8-mouse-100.png');
+    height: 100vh;
+}
+.nav
+{
+    width: 100%;
+}
+.navbar
+{
+    width: 100%;
+}
+.navbar-icon
+{
+float: left;
+padding: 40px;
+margin-left: 150px;
+list-style: none;
+}
+.navbar-menu
+{
+    float: right;
+    padding: 40px;
+    margin-right: 67px;
+    list-style: none;
+}
+.social-media{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+.nav-item
+{
+    display: inline-block;
+    font-size: 18px;
+    width: 17px;
+    height: 30px;
+    margin-right: 53px;
+    padding-right: 20px;
+    text-align: center;
+    
+}
+.nav-item a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    transition: color 0.4s ease 0s;
+    text-align: center;
+}
+.social-media a{
+    color: #000;
+}
+.nav-item a:hover{
+    color: rgba(27, 184, 196, 0.541);
+}
+.active
+{
+    color:  rgba(27, 184, 196, 0.541) !important;
+}
+/*content section*/
+.name{
+    position: relative;
+    top: 109px;
+    width: 13%;
+    left: 16%;
+    font-size: 27px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    bottom: 0;
+}
+.header{
+    font: normal normal bold 80px/1.1em raleway,sans-serif;
+    color: #222222;
+    width: 20%;
+    position: relative;
+    top: 137px;
+    left: 210px;
+    bottom: 0px;
+}
+.image-container
+{
+    width: 400px;
+    height: 400px;
+}
+.content-image
+{
+    width: 946px;
+    height: 685px;
+    position: relative;
+    left: 91%;
+    top: -356px;
+    z-index: -1;
+    bottom: 0px;
+}
+.text1,.text2,.text3{
+    background-color: #fff;
+    padding: 7px;
+}
+.end hr{
+    margin-top: 225px;
+}
+.end p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .4em;
+    font-weight: 500;
+}

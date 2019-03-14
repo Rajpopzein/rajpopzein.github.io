@@ -1,0 +1,71 @@
+
+.about-section p{
+    font: normal normal bold 80px/1.1em raleway,sans-serif;
+    color: #222222;
+    width: 20%;
+    position: relative;
+    top: 107px;
+    left: 210px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.about-section p span{
+    background-color: #fff;
+    padding: 4px;
+}
+.header-image {
+    position: relative;
+    left: 27%;
+    top: -116px;
+    z-index: -1;
+    width: 64vw;
+}
+.header-image .head-image
+{
+    width: 871px;
+}
+.about-text
+{
+    width: 853px;
+    margin-left: 362px;
+    margin-top: -85px;
+}
+.about-text .quait
+{
+    width: 350px;
+    font: normal normal normal 25px/1.3em raleway,sans-serif;
+    text-align: left;
+    color: #309C89;
+    float: left;
+    margin-bottom: 20px;
+    letter-spacing: 0.03em;
+}
+.about-text .quait2{
+    width: 400px;
+    font: normal normal normal 25px/1.3em raleway,sans-serif;
+    color: #309C89;
+    letter-spacing: 0.03em;
+}
+.para1
+{
+    width: 339px;
+    text-align: left;
+    float: right;
+    margin-top: -193px;
+    margin-bottom: 0px;
+    font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    color: #222222;
+}
+.para2
+{
+    width: 339px;
+    text-align: left;
+    float: right;
+    margin-top: -68px;
+    font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    color: #222222;
+}
+.clear
+{
+    clear: both;
+}
