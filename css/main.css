@@ -434,6 +434,21 @@ list-style: none;
         bottom: 0px;
     }
 }
+@media screen and (max-width:481px){
+    .content-image {
+        width: 939px;
+        height: 746px;
+        position: relative;
+        left: 23%;
+        top: -456px;
+        z-index: -1;
+        bottom: 0px;
+    }
+    .texth
+    {
+        background-color: #fff;
+    }
+}
 .active
 {
     display: block;
