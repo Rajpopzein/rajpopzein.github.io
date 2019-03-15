@@ -69,7 +69,7 @@ list-style: none;
     position: relative;
     top: 109px;
     width: 13%;
-    left: 16%;
+    left: 15%;
     font-size: 27px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -296,6 +296,15 @@ list-style: none;
         text-align: center;
         z-index: 1;
     }
+    .content-image {
+        width: 927px;
+        height: 685px;
+        position: relative;
+        left: 65%;
+        top: -456px;
+        z-index: -1;
+        bottom: 0px;
+    }
 }
 @media screen and (max-width:425px){
     .toggler
@@ -306,19 +315,17 @@ list-style: none;
         margin-right: -676px;
         font-size: 68px;
     }
-    .navbar-icon
-    {
-        padding: 1px;
-        margin-left: 56px;
+    .navbar-icon {
+        padding: 53px;
+        margin-left: 38px;
         list-style: none;
-        font-size: 146px;
-        margin-top: -49px;
+        width: 500px;
     }
     .content-image {
-        width: 927px;
-        height: 728px;
+        width: 975px;
+        height: 1013px;
         position: relative;
-        left: 35%;
+        left: 17%;
         top: -456px;
         z-index: -1;
         bottom: 0px;
@@ -328,21 +335,20 @@ list-style: none;
         color: #222222;
         width: 20%;
         position: relative;
-        top: 134px;
+        top: 304px;
         left: 42px;
         bottom: 0px;
     }
     
     .name {
         position: relative;
-        top: 117px;
+        top: 259px;
         width: 9%;
         left: 13%;
         font-size: 36px;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         bottom: 0;
-        background-color: #fff;
     }
     .texth
     {
@@ -361,10 +367,10 @@ list-style: none;
         
     } 
     .navbar-icon {
-        padding: 0px;
+        padding: 40px;
         margin-left: 38px;
         list-style: none;
-        width: 300px;
+        width: 500px
     }
     .navbar-menu
     {
@@ -379,9 +385,9 @@ list-style: none;
     
     .social-media {
         display: inline-block;
-        width: 19px;
+        width: 77px;
         height: 30px;
-        font-size: 38px;
+        font-size: 53px;
     }
     .nav-item a {
         display: inline;
@@ -396,60 +402,74 @@ list-style: none;
         /* margin: 10px; */
     }
 }
-@media screen and (max-width:642px){
-    .navbar-icon {
-        padding: 42px;
-        margin-left: 19px;
-        list-style: none;
-    }
-    .social-media {
-        display: inline-block;
-        width: 59px;
-        height: 30px;
-        font-size: 35px;
-    }
-    .toggler {
-        display: block;
-        float: right;
-        padding: 35px;
-        margin-right: -558px;
-        font-size: 34px;
-    }
-    .content-image {
-        width: 939px;
-        height: 746px;
-        position: relative;
-        left: 58%;
-        top: -456px;
-        z-index: -1;
-        bottom: 0px;
-    }
+@media screen and (max-width:320px)
+{
     .header {
         font: normal normal bold 80px/1.1em raleway,sans-serif;
         color: #222222;
-        width: 20%;
+        width: 30%;
         position: relative;
-        top: 137px;
-        left: 94px;
+        top: 304px;
+        left: 0px;
         bottom: 0px;
     }
-}
-@media screen and (max-width:481px){
     .content-image {
-        width: 939px;
-        height: 746px;
+        width: 975px;
+        height: 1013px;
         position: relative;
-        left: 23%;
+        left: 3%;
         top: -456px;
         z-index: -1;
         bottom: 0px;
     }
-    .texth
-    {
-        background-color: #fff;
+    .name {
+        position: relative;
+        top: 259px;
+        width: 9%;
+        left: 2%;
+        font-size: 36px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        bottom: 0;
     }
+
 }
+/*mobile navbar*/
 .active
 {
     display: block;
+}
+
+/*responsive*/
+@media screen and (max-width:1329px){
+    .content-image {
+        width: 924px;
+        height: 818px;
+        position: relative;
+        left: 84%;
+        top: -355px;
+        z-index: -1;
+        bottom: 0px;
+    }
+    .name
+    {
+        left: 13%;
+    }
+}
+@media screen and (max-width:1212px)
+{
+    .content-image {
+        width: 924px;
+        height: 818px;
+        position: relative;
+        left: 63%;
+        top: -378px;
+        z-index: -1;
+        bottom: 0px;
+    }
+    .name
+    {
+        left: 7%;
+    }
+
 }
